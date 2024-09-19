@@ -1,0 +1,57 @@
+.bgs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+.img {
+  width: 250px;
+  height: 150px;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 160px;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+
+  font-family: 'Roboto';
+}
+.name {
+  color: #ffff;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.genre {
+  color: #3b82f6;
+  font-size: 24px;
+}
+
+.time-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 500px;
+}
+.time {
+  color: #ffff;
+  font-size: 24px;
+  margin-right: 120px;
+}
+.button {
+  background-color: transparent;
+  color: #ffff;
+  font-size: 24px;
+  border-width: 0;
+  cursor: pointer;
+}
